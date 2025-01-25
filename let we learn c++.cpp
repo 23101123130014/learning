@@ -1,21 +1,19 @@
 #include <iostream>
+#include <string>
 
 int main() {
-    int num1, num2, sum;
+    std::string username, password;
 
-    // Prompt the user to enter two numbers
-    std::cout << "Enter the first number: ";
-    std::cin >> num1;
+    // Predefined username and password
+    std::string correct_username = "user";
+    std::string correct_password = "pass123";
 
-    std::cout << "Enter the second number: ";
-    std::cin >> num2;
+    // Prompt the user to enter username and password
+    std::cout << "Enter username: ";
+    std::cin >> username;
 
-    // Calculate the sum
-    sum = num1 + num2;
+    std::cout << "Enter password: ";
+    std::cin >> password;
 
-    // Print the sum
-    std::cout << "The sum of " << num1 << " and " << num2 << " is " << sum << std::endl;
-
-    return 0;
-}
-
+    // Check if the entered username and password are correct
+    if 
