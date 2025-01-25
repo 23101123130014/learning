@@ -1,8 +1,21 @@
 #include <iostream>
-using namespace std;
-int main()
-{
-	cout<<"hello you are learning c++ programing laguage";
-	/*thi is multiple line comment in c"++*
-	dsfapook*/
+
+int main() {
+    int num1, num2, sum;
+
+    // Prompt the user to enter two numbers
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+
+    // Calculate the sum
+    sum = num1 + num2;
+
+    // Print the sum
+    std::cout << "The sum of " << num1 << " and " << num2 << " is " << sum << std::endl;
+
+    return 0;
 }
+
