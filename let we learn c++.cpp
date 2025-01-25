@@ -1,60 +1,34 @@
 #include <iostream>
-#include <string>
-#include <unordered_map>
-
-class UserAuth {
-    std::unordered_map<std::string, std::string> users;  // Stores username and password pairs
-
-public:
-    void registerUser(const std::string& username, const std::string& password) {
-        if (users.find(username) != users.end()) {
-            std::cout << "Username already exists. Please choose a different username.\n";
-        } else {
-            users[username] = password;
-            std::cout << "User registered successfully!\n";
-        }
-    }
-
-    bool loginUser(const std::string& username, const std::string& password) {
-        if (users.find(username) != users.end() && users[username] == password) {
-            std::cout << "Login successful!\n";
-            return true;
-        } else {
-            std::cout << "Invalid username or password.\n";
-            return false;
-        }
-    }
-};
+#include <cstdlib>
+#include <ctime>
 
 int main() {
-    UserAuth auth;
-    int choice;
-    std::string username, password;
+    // Initialize random seed
+    std::srand(static_cast<unsigned int>(std::time(nullptr)));
 
-    while (true) {
-        std::cout << "1. Register\n2. Login\n3. Exit\nChoose an option: ";
-        std::cin >> choice;
+    // Generate a random number between 1 and 100
+    int secretNumber = std::rand() % 100 + 1;
+    int guess = 0;
+    int numberOfTries = 0;
 
-        switch (choice) {
-        case 1:
-            std::cout << "Enter a username: ";
-            std::cin >> username;
-            std::cout << "Enter a password: ";
-            std::cin >> password;
-            auth.registerUser(username, password);
-            break;
-        case 2:
-            std::cout << "Enter username: ";
-            std::cin >> username;
-            std::cout << "Enter password: ";
-            std::cin >> password;
-            auth.loginUser(username, password);
-            break;
-        case 3:
-            return 0;
-        default:
-            std::cout << "Invalid option. Please try again.\n";
+    std::cout << "Welcome to Guess the Number!\n";
+    std::cout << "I have selected a number between 1 and 100. Can you guess it?\n";
+
+    // Game loop
+    while (guess != secretNumber) {
+        std::cout << "Enter your guess: ";
+        std::cin >> guess;
+        numberOfTries++;
+
+        if (guess > secretNumber) {
+            std::cout << "Too high! Try again.\n";
+        } else if (guess < secretNumber) {
+            std::cout << "Too low! Try again.\n";
+        } else {
+            std::cout << "Congratulations! You guessed the number in " << numberOfTries << " tries.\n";
         }
     }
+
+    return 0;
 }
 
