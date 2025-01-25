@@ -1,5 +1,5 @@
 #include <iostream>
-using name space std;
+using namespace std;
 int main()
 {
 	cout<<"hello the world";
