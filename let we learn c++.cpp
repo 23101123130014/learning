@@ -2,16 +2,6 @@
 using namespace std;
 int main()
 {
-    int num1;
-    int num2;
-    int sum;
-    cout<<"a program to add two numbers";
-    cout<<"\n enter the first number: ";
-    cin>>num1;
-    cout<<"\nenter the second number";
-    cin>>num2;
-    sum= num1+num2;
-    cout<<"\nthe sum of the two numbers is ";
-    cout<<sum;
-    cout<<"\n thank for workin gwith us";
+	cout<<"hello the world";
+	return 0;
 }
