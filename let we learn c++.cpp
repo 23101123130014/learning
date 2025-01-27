@@ -11,6 +11,7 @@ int main()
     cout<<"\nenter the second number";
     cin>>num2;
     sum= num1+num2;
-    cout<<"the sum of the two numbers is ";
+    cout<<"\nthe sum of the two numbers is ";
     cout<<sum;
+    cout<<"\n thank for workin gwith us";
 }
