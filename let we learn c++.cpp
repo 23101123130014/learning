@@ -7,7 +7,7 @@ int main()
 	// \"this insert a double court in c++ programing language
 	cout<<"\thello guys iam learning c++ program laguage";
 	cout<<"\n \\welcome and you also";
-	cout<<"\n thanks alot for you time";
+	cout<<"\n \"thanks alot for you time\"";
 	//this is a single line comment 
 	
 }
