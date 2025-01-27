@@ -10,4 +10,5 @@ int main()
     cin>>num1;
     cout<<"\nenter the second number";
     cin>>num2;
+    sum= num1+num2;
 }
