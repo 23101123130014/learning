@@ -6,4 +6,5 @@ int main()
     cout<<"\n enter the first number: ";
     cin>>num1;
     cout<<"\nenter the second number";
+    cin>>num2;
 }
