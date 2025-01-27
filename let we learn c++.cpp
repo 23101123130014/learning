@@ -5,4 +5,5 @@ int main()
     cout<<"a program to add two numbers";
     cout<<"\n enter the first number: ";
     cin>>num1;
+    cout<<"\nenter the second number";
 }
