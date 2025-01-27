@@ -10,9 +10,12 @@ int main()
 	double marks;
 	float total;
 	bool reality;
+	grade ='a';
 	cout<<"\thello guys iam learning c++ program laguage";
 	cout<<"\n \\welcome and you also";
 	cout<<"\n \"thanks alot for you time\"";
+	cout<<endl;
+	cout<<grade;
 	//this is a single line comment 
 	
 }
