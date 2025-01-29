@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-int thisfunction(int x)
+int thisfunction(int x = 23, int y = 2)
 {
-return x + 5;	
+	return x + y;
 }
 int main()
 {
-	cout<<thisfunction(23);
+	cout<<thisfunction();
 }
