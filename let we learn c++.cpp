@@ -2,11 +2,10 @@
 using namespace std;
 int main()
 {
-	int x= 0;
-	while(x < 5)
-	{
+	int x = 0;
+	do{
 		cout<<x;
-		cout<<endl;
 		x++;
 	}
+while(x<5);	
 }
