@@ -1,20 +1,15 @@
-//a program with a pointe on it
-#include <iostream>
-using namespace std;
-int main()
-{
-	string name = "jacob";
-	string* point = &name;
-	cout<<name;
-	cout<<endl;
-	cout<<&name;
-	cout<<endl;
-	cout<<point;
-	//the differencing output code here
-	cout<<*point;
-	*point = "home";
-	cout<<*point;
-	cout<<endl;
-	cout<<name;
-	
+#include <iostream>  
+using namespace std;  
+
+void myFunction(int myNumbers[5]) {
+  for (int i = 0; i < 5; i++) {  
+    cout << myNumbers[i] << "\n";    
+  } 
 }
+
+int main() {  
+  int myNumbers[5] = {10, 20, 30, 40, 50};  
+  myFunction(myNumbers);
+  return 0;
+}  
+
