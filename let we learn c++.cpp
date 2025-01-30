@@ -12,5 +12,9 @@ int main()
 	cout<<point;
 	//the differencing output code here
 	cout<<*point;
+	*point = "home";
+	cout<<*point;
+	cout<<endl;
+	cout<<name;
 	
 }
