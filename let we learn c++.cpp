@@ -10,5 +10,7 @@ int main()
 	cout<<&name;
 	cout<<endl;
 	cout<<point;
+	//the differencing output code here
+	cout<<*point;
 	
 }
