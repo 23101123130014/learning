@@ -2,6 +2,5 @@
 using namespace std;
 int main()
 {
-	string myarr[5] = {"jacob", "mpoki","juma","saidi","saidi"};
-	cout<<myarr[2];
+	cout<<"\nthis is all about today\n"
 }
