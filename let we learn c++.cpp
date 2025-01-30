@@ -5,7 +5,8 @@ struct
 {
 	int age;
 	string name;
-}mystructure;
+	string location;
+}mystructure, friends;
 int main()
 {
 	mystructure.age = 23;
@@ -13,4 +14,10 @@ int main()
 	cout<<mystructure.age;
 	cout<<endl;
 	cout<<mystructure.name;
+	friends.name= "juma mtenzi";
+	friends.location = "mbeya";
+	cout<<endl;
+	cout<<friends.name;
+	cout<<endl;
+	cout<<friends.location;
 }
