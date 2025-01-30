@@ -1,17 +1,14 @@
 #include <iostream>
 using namespace std;
-class thisclass
-{
+class myclass{
 	public:
-		void mymethod()
+		myclass()
 		{
-			cout<<"hello the function of the class";
+			cout<<"this is the constructer it is called when the object of the class is created";
 		}
-		
 };
 int main()
 {
-	thisclass ob;
-	ob.mymethod();
+	myclass thiobject;
+	return 0;
 }
-
