@@ -1,23 +1,28 @@
-//a program with struct
 #include <iostream>
 using namespace std;
-struct 
-{
+struct car{
 	int age;
 	string name;
 	string location;
-}mystructure, friends;
+	
+};
 int main()
 {
-	mystructure.age = 23;
-	mystructure.name= "jacob";
-	cout<<mystructure.age;
-	cout<<endl;
-	cout<<mystructure.name;
-	friends.name= "juma mtenzi";
-	friends.location = "mbeya";
-	cout<<endl;
-	cout<<friends.name;
-	cout<<endl;
-	cout<<friends.location;
+	car ths;
+	ths.age = 23;
+	ths.name = "tax";
+	ths.location = "mbeya";
+	cout<<ths.age<<" "<<ths.name<<" "<<ths.location<<endl;
+	
+	car thos;
+	thos.age = 12;
+	thos.name = "bajaji";
+	thos.location = "mbeya";
+	cout<<thos.age;
+	cout<<" ";
+	
+	cout<<thos.name;
+	cout<<" ";
+	cout<<thos.location;
+	return 0;
 }
