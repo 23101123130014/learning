@@ -2,10 +2,5 @@
 using namespace std;
 int main()
 {
-	int x = 0;
-	do{
-		cout<<x;
-		x++;
-	}
-while(x<5);	
+	cout<<"let start a new day with c++ programing language it is funny";
 }
