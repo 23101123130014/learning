@@ -8,5 +8,7 @@ int main()
 	cout<<name;
 	cout<<endl;
 	cout<<&name;
+	cout<<endl;
+	cout<<point;
 	
 }
