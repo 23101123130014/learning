@@ -1,14 +1,21 @@
 #include <iostream>
 using namespace std;
-class myclass{
+class myconstructor
+{
 	public:
-		myclass()
+		myconstructor(int id, string name)
 		{
-			cout<<"this is the constructer it is called when the object of the class is created";
+			cout<<id<<": "<<name;
+			
 		}
 };
 int main()
 {
-	myclass thiobject;
-	return 0;
+	myconstructor ob(1, "jacob godwin mwnasambe");
+	cout<<endl;
+	myconstructor ob2(2, "Mpoki godwin mwansambe");
+	cout<<endl;
+	myconstructor ob3(3, "lupakisyo godwin mwansabe");
+	cout<<endl;
+
 }
