@@ -2,5 +2,14 @@
 using namespace std;
 int main()
 {
-	cout <<"this was all about this section thank for your time";
+	int i;
+	for(int i =1; i<6; i++)
+	{
+		cout<<i;
+		cout<<endl;
+	}
+	if(i = 2)
+	{
+		cout<<i;
+	}
 }
