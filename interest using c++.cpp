@@ -10,6 +10,6 @@ int main()
 	cout<<"enter the time: ";
 	cin>>t;
 	interest = (p*r*t)/100;	
-	cout<<"interest is: ";
+	cout<<"simple interest is: ";
 	cout<<interest;
 }
