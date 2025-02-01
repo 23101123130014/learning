@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	int l,w,rea;
-	cout<"\n ente the length of the rectangle: ";
+	cout<"\n enter the length of the rectangle: ";
 	cin>>l;
 	cout<<"\n enter the width of the rectangle: ";
 	cin>>w;
