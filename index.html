@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>E-Commerce Homepage</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f4f4f4;
+}
+
+nav ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 10px;	
+}
+
+.product img {
+	width:100px; /* set appropriate size */
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our E-Commerce Store</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login/Register</a></li>  
+        </ul>  
+    </nav>  
+</header>
+
+<section id="products">
+<h2>Product Categories</h2>
+
+<div class='product'>
+   <!-- Example Product -->
+   <img src='images/product1.jpg' alt='Product 1'>
+   <h3>Product Title 1</h3> 
+   <p>$20.00</p> 
+   <!-- Link to individual product details -->
+   <button onclick='addToCart("Product Title 1", 20)'>Add to Cart!</button> 
+ </div>
+
+<!-- Repeat div.product for more products -->
+
+</section>
+
+<footer>&copy; 2023 E-Commerce Website.</footer>
+
+<script>
+    let cart = [];
+
+function addToCart(productName, price) {
+     let item = { name: productName, price: price };
+     cart.push(item);
+     alert(`${productName} has been added to your cart!`);
+}
+
+// Additional functions like removing items from the cart can be added here.
+
+</script>
+
+</body>
+</html>
