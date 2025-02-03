@@ -11,7 +11,7 @@ using namespace std;
  			string name;//name for the student
  			
  			//display student information
- 			void displayinformation const()
+ 			void display const()
  			{
  				cout<<"\n---|student information-----|\n";
  				cout<<"student name: "<<name<<endl;
@@ -32,7 +32,7 @@ vector<student> students; //vector to store student information
 //for displaying user choice
 do
 {
-	
+cout<<"|----"	
 }
 
   }
