@@ -26,7 +26,8 @@ using namespace std;
  void  deleteStudent(vector<student>& students);//function to erase student
   int main()
   {
-  	int choice;
+  	int choice; //variable to handle user input
+
 do
   }
   
