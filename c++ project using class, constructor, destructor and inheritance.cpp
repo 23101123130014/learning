@@ -32,7 +32,8 @@ vector<student> students; //vector to store student information
 //for displaying user choice
 do
 {
-cout<<"|----choose the choice below-------|";	
+cout<<"|----choose the choice below-------|";
+cout<<"\n 1: register a student"; 
 }
 
   }
