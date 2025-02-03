@@ -1,8 +1,8 @@
 #include <iostream>//allow the use of input and output function
 #include <vector>//vector to be used to store student information
-#include <string>
+#include <string>//enable the use of std string
 using namespace std;
- class student
+ struct student
  {
  	private:
  		int password;
