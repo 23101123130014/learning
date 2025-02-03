@@ -5,9 +5,9 @@ using namespace std;
  struct student
  {
  	private:
- 		int password;
+ 		int password; //pasword for admin
  		public:
- 			int id;
+ 			int id;//registration number for student
  			string name;
  			void display_student information()
  			{
