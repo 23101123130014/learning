@@ -10,6 +10,7 @@ using namespace std;
  			void display_student information()
  			{
  				cout<<"\n---|student information-----|\n";
- 				cout<<"STUDENT NAME"
+ 				cout<<"STUDENT NAME: "<<name<<endl;
+ 				cout<<"registration number"
 			 }
  };
