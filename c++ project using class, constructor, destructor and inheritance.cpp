@@ -7,5 +7,8 @@ using namespace std;
  		public:
  			int id;
  			string name;
- 			void display()
+ 			void display_student information()
+ 			{
+ 				cout<<"s"
+			 }
  };
