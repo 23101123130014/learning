@@ -29,7 +29,7 @@ using namespace std;
   	int choice; //variable to handle user input
 vector<student> students; //vector to store student information
 
-
+//for displaying user choice
 do
 {
 	
