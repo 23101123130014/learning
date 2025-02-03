@@ -34,7 +34,8 @@ do
 {
 cout<<"|----choose the choice below-------|";
 cout<<"\n 1: register a student"; //choice to register new student
-cout<<"\n 2: review student informayion";
+cout<<"\n 2: review student informayion";//call a funtion to read the student information
+
 }
 
   }
