@@ -33,7 +33,8 @@ vector<student> students; //vector to store student information
 do
 {
 cout<<"|----choose the choice below-------|";
-cout<<"\n 1: register a student"; 
+cout<<"\n 1: register a student"; //choice to register new student
+
 }
 
   }
