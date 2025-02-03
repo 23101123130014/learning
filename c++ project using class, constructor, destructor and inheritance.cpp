@@ -1,5 +1,5 @@
 #include <iostream>//allow the use of input and output function
-#include <vector>
+#include <vector>//vector to be used to store student information
 #include <string>
 using namespace std;
  class student
