@@ -39,7 +39,7 @@ cout<<"\n 3: update student information";//choice to update student information
 cout<<"\n 4: delete student"; //choice to delete student information
 
 cout<<"\n 5: Exit"; 
-
+cout<<"choose the choice above"; 
 
 //switch on various action on bases of the user choice
 	switch(choice)	
