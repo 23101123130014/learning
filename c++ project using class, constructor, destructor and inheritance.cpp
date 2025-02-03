@@ -19,4 +19,4 @@ using namespace std;
 			 }
  };
  //function prototype here
- void registerNewStudent(vector<student>& students);
+ void registerNewStudent(vector<student>& students); //function to register new student
