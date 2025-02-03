@@ -9,6 +9,7 @@ using namespace std;
  		public:
  			int id;//registration number for student
  			string name;//name for the student
+ 			
  			//display student information
  			void displayinformation const()
  			{
@@ -23,4 +24,10 @@ using namespace std;
  void showinfo(const vector<student>& students);//function to read sudent information
  void upadatestudentinfo(vector<student>& students);//function to update student information
  void  deleteStudent(vector<student>& students);//function to erase student
- 
+  int main()
+  {
+  }
+  
+  
+  
+  
