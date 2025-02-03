@@ -27,8 +27,8 @@ using namespace std;
   int main()
   {
   	int choice; //variable to handle user input
-vector<student> students; 
-do
+vector<student> students; //vector to store student information
+
   }
   
   
