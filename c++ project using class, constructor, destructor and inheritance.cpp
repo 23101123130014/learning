@@ -11,7 +11,7 @@ using namespace std;
  			string name;//name for the student
  			
  			//display student information
- 			void display const()
+ 			void display()const
  			{
  				cout<<"\n---|student information-----|\n";
  				cout<<"student name: "<<name<<endl;
