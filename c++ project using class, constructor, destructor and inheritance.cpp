@@ -36,7 +36,11 @@ cout<<"|----choose the choice below-------|";
 cout<<"\n 1: register a student"; //choice to register new student
 cout<<"\n 2: review student informayion";//call a funtion to read the student information
 cout<<"\n 3: update student information";//choice to update student information
-cout<<"\n 4: delete student"; //choice to delete student info
+cout<<"\n 4: delete student"; //choice to delete student information
+
+cout<<"\n 5: Exit"; 
+
+
 //switch on various action on bases of the user choice
 	switch(choice)	
 
