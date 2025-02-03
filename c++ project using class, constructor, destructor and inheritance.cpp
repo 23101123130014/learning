@@ -7,4 +7,5 @@ using namespace std;
  		public:
  			int id;
  			string name;
- }
+ 			void display()
+ };
