@@ -20,5 +20,5 @@ using namespace std;
  };
  //function prototype here
  void registerNewStudent(vector<student>& students); //function to register new student
- void showinfo(const vector<student>& students);vector to read sudent information
+ void showinfo(const vector<student>& students);//vector to read sudent information
  
