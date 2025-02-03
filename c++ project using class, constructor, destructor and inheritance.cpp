@@ -9,6 +9,7 @@ using namespace std;
  		public:
  			int id;//registration number for student
  			string name;//name for the student
+ 			//display student information
  			void display_student information()
  			{
  				cout<<"\n---|student information-----|\n";
