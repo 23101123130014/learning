@@ -19,3 +19,4 @@ using namespace std;
 			 }
  };
  //function prototype here
+ void registerNewStudent(vector<student>& students);
