@@ -40,7 +40,7 @@ cout<<"\n 4: delete student"; //choice to delete student information
 
 cout<<"\n 5: Exit"; 
 cout<<"choose the choice above"; //prompot user to choose the choice above
-
+cin>>choice;
 
 
 //switch on various action on bases of the user choice
