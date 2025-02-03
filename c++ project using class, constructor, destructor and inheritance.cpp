@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>//allow the use of input and output function
 #include <vector>
 #include <string>
 using namespace std;
