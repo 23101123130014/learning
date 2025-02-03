@@ -8,7 +8,7 @@ using namespace std;
  		int password; //pasword for admin
  		public:
  			int id;//registration number for student
- 			string name;
+ 			string name;//name for the student
  			void display_student information()
  			{
  				cout<<"\n---|student information-----|\n";
