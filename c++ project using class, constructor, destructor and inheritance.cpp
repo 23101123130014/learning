@@ -18,4 +18,4 @@ using namespace std;
  				
 			 }
  };
- void register_student(stud vector<studen>& student);
+ 
