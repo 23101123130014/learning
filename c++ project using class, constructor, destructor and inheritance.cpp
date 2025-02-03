@@ -22,5 +22,5 @@ using namespace std;
  void registerNewStudent(vector<student>& students); //function to register new student
  void showinfo(const vector<student>& students);//function to read sudent information
  void upadatestudentinfo(vector<student>& students);//function to update student information
- void  deleteStudent(vector<student>& students);//function to
+ void  deleteStudent(vector<student>& students);//function to erase student
  
