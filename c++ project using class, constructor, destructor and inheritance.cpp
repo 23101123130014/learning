@@ -3,5 +3,8 @@ using namespace std;
  class student
  {
  	private:
- 		int password
+ 		int password;
+ 		public:
+ 			int id;
+ 			string name;
  }
