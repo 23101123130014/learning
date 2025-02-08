@@ -14,7 +14,7 @@ class chil: public base{
 };
 int main()
 {
-	cout<<"\nhello the world\n";
+	cout<<hello the world\n";
 	
 	chil ob;
 	ob.thiss();
