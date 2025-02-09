@@ -6,6 +6,8 @@ class firstClass{
 		int salary;
 };
 
+class secondClass:
+
 
 
 int main()
