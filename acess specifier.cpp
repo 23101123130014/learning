@@ -28,5 +28,5 @@ secondClass ob;
 ob.sets(3000);
 cout<<ob.gets();
 ob.bonas = 2300;
-cout<<"\n bonas is"	
+cout<<"\n bonas is "<<ob.bonas;	
 }
