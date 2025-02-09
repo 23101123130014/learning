@@ -23,5 +23,6 @@ class secondClass: public firstclass{
 
 int main()
 {
-secondClass ob;	
+secondClass ob;
+ob.sets(3000);	
 }
