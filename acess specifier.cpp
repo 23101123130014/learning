@@ -51,4 +51,5 @@ cout<<"\n bonas is "<<ob.bonas;
 
 Mwapaghata obb;
 obb.name = "godwin afumwisye mwandunga";
+obb.phone_number = 0653228923;
 }
