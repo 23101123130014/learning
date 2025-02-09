@@ -24,7 +24,7 @@ class secondClass: public firstClass{
 class Mwapaghata{
 	public:
 		string name;
-		int phone number;
+		int phone_number;
 		string location;
 		
 		void display()
@@ -46,4 +46,9 @@ cout<<"\n you salary is  ";
 cout<<ob.gets();
 ob.bonas = 2300;
 cout<<"\n bonas is "<<ob.bonas;	
+
+
+
+Mwapaghata obb;
+obb.name = "godwin afumwisye mwandunga";
 }
