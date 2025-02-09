@@ -3,6 +3,7 @@ using namespace std;
 
 class firstClass{
 	protected:
+		int salary;
 };
 
 
