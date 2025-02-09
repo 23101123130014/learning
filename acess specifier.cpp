@@ -29,7 +29,7 @@ class Mwapaghata{
 		
 		void display()
 		{
-			cout<<"personal detail for "<<name;
+			cout<<"\n personal detail for "<<name;
 			cout<<"\n name: "<<name;
 			cout<<"\n phone number: "<<phone_number;
 			cout<<"\n location: "<<location;
@@ -51,5 +51,8 @@ cout<<"\n bonas is "<<ob.bonas;
 
 Mwapaghata obb;
 obb.name = "godwin afumwisye mwandunga";
-obb.phone_number = 0653228923;
+obb.phone_number = 28923;
+obb.location = "mbeya";
+
+obb.display();
 }
