@@ -26,6 +26,14 @@ class Mwapaghata{
 		string name;
 		int phone number;
 		string location;
+		
+		void display()
+		{
+			cout<<"personal detail for "<<name;
+			cout<<"\n name: "<<name;
+			cout<<"\n phone number: "<<phone_number;
+			cout<<"\n location: "<<location;
+		}
 };
 
 
