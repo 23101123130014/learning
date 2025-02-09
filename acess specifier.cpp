@@ -37,7 +37,12 @@ class Mwapaghata{
 };
 
 
-class jacob{
+class jacob: public Mwapaghata{
+	
+	
+};
+
+class mpoki: public Mwapaghata{
 	
 };
 
