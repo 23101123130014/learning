@@ -72,4 +72,6 @@ jacob jj;
 jj.name = "jacob godwin mwansambe";
 jj.phone_number = 8923;
 jj.location ="zimbabwe";
+
+jj.display();
 }
