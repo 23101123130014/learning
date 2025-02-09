@@ -8,6 +8,8 @@ class firstClass{
 
 class secondClass: public firstclass{
 	
+	public:
+		set sallary
 };
 
 
