@@ -65,4 +65,11 @@ obb.phone_number = 28923;
 obb.location = "mbeya";
 
 obb.display();
+
+
+
+jacob jj;
+jj.name = "jacob godwin mwansambe";
+jj.phone_number = 8923;
+jj.location ="zimbabwe";
 }
