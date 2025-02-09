@@ -25,6 +25,7 @@ class Mwapaghata{
 	public:
 		string name;
 		int phone number;
+		string location;
 };
 
 
