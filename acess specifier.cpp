@@ -9,9 +9,13 @@ class firstClass{
 class secondClass: public firstclass{
 	
 	public:
-		set sallary(int s)
+	void sets(int s)
 		{
 		salary =s;	
+		}
+		int gets()
+		{
+			return salary;
 		}
 };
 
