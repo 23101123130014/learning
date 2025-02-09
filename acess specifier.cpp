@@ -24,5 +24,6 @@ class secondClass: public firstclass{
 int main()
 {
 secondClass ob;
-ob.sets(3000);	
+ob.sets(3000);
+cout<<ob.gets();	
 }
