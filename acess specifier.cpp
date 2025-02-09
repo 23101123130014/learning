@@ -6,7 +6,9 @@ class firstClass{
 		int salary;
 };
 
-class secondClass: public firstclass
+class secondClass: public firstclass{
+	
+};
 
 
 
