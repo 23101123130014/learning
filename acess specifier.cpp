@@ -9,7 +9,10 @@ class firstClass{
 class secondClass: public firstclass{
 	
 	public:
-		set sallary
+		set sallary(int s)
+		{
+		salary =s;	
+		}
 };
 
 
