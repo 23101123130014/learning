@@ -9,6 +9,7 @@ class firstClass{
 class secondClass: public firstClass{
 	
 	public:
+		int bonas;
 	void sets(int s)
 		{
 		salary =s;	
