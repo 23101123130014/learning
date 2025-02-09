@@ -22,7 +22,9 @@ class secondClass: public firstClass{
 
 
 class Mwapaghata{
-	
+	public:
+		string name;
+		int phone number;
 };
 
 
