@@ -21,6 +21,11 @@ class secondClass: public firstClass{
 };
 
 
+class Mwapaghata{
+	
+};
+
+
 
 int main()
 {
