@@ -23,5 +23,5 @@ class secondClass: public firstclass{
 
 int main()
 {
-	
+secondClass ob;	
 }
