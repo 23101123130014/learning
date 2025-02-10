@@ -8,21 +8,48 @@
 <p>Click the button to display "Good day", 
 only if the time is less than 20:00.</p>
 
-<button onclick="myFunction()">Current 
-Time </button>
-<p id="demo"></p>
+<button onclick="myFunction()"> 
+romeo </button>
+
+<p id="jacob">greeting will be shown here</p>
+<button onclick="window.print()">Print this page</button>
+
+<button onclick="my()">click here</button>
+<p id="s"></p>
+
 <script>
 function myFunction()
  {
  var time = new Date().getHours();
  var greeting;
 
- if (time < 20) 
+ if (time < 12) 
 {
- greeting ="Good Day";
+ greeting ="good morning";
 }
- document.getElementById("demo").innerHTML = greeting;
+
+else if( time > 18)
+{
+    greeting = "good evening";
+}
+else{
+    greeting ="good afternoon";
+}
+ document.getElementById("jacob").innerHTML = greeting;
  }
+
+
+ console.log("decide on type of website");
+ window.alert("malisa");
+
+function my(){
+
+
+ var x= 3;
+ var y  = 2;
+ var z = 1;
+ document.getElementById('s').innerHTML = x + y +z;
+}
 </script>
 </body>
 </html>
