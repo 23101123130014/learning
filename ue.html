@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: brown;
+            font-weight: bold;
+            border:4px  solid green;
+            padding-left: 2px;
+            padding-right: 2px;
+            width: 20em;
+            margin-left: 200px;
+            border-radius: 500px;
+            padding-bottom: 2px;
+            padding-top: 2px;
+            border-radius: 100em !important;
+            color: green;
+            text-shadow: 12px(red, blue, brown);
+        }
+        body{
+            background-color: rgb(198, 217, 223);
+        }
+        #jj{
+            text-align: center;
+        }
+        #ss{
+            background-color: blue;
+            align-items: center;
+            align-items: center;
+            justify-content: center;
+            margin-left: 550px;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is the heading of this page</h1>
+<p id="jj">paragraphy</p>
+
+    <button id="ss" onclick="document.getElementById('jj').innerHTML = Date()">click here</button>
+</body>
+</html>
