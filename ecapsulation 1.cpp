@@ -3,7 +3,7 @@ using namespace std;
 
 //advantages of incapsulation
 /*
-i. data security
+i. data security/safety
 ii. easy maintenace 
 iii. controlled data access
 */
