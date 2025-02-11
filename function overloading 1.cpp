@@ -21,6 +21,7 @@ class Printer
 			cout<<"\n price is "<<price;
 		}
 };
+//main function here
 int main()
 {
 	Printer pp;
