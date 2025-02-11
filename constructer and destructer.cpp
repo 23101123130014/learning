@@ -25,4 +25,7 @@ int main()
 one o;	
 o.id = 2;
 o.age = 23;	
+
+o.display();
+cout<<endl;
 }
