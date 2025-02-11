@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="centered-header">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="#">Categories</a>
+                <div class="dropdown-content">
+                    <a href="products.html">Products</a>
+                    <a href="furniture.html">Furniture</a>
+                    <a href="shoes.html">Shoes</a>
+                    <a href="electronics.html">Electronics</a>
+                    <a href="Men's Wear.html">Men's Wear</a>
+                    <a href="Women's Fashion.html">Women's Fashion</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact Us</a>
+            <a href="cart.html">🛒Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Products</h2>
+            <section class="product-list">
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Casual Sneakers s 1.jpg" alt="Casual Sneakers">
+                    <h4>Casual Sneakers</h4>
+                    <a href="product.html" class="description" data-name="Casual Sneakers" data-price="TZS 85,000"
+                        data-description="Comfortable and stylish sneakers."
+                        data-image="../IMAGES/products images/Casual Sneakers s 1.jpg"
+                        data-specifications="Material: Leather; Size: 40-44; Color: Navy"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 85,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Dining Table Set f 1.jpg" alt="Dining Table Set">
+                    <h4>Dining Table Set</h4>
+                    <a href="product.html" class="description" data-name="Dining Table Set" data-price="TZS 550,000"
+                        data-description="Wooden dining table with chairs."
+                        data-image="../IMAGES/products images/Dining Table Set f 1.jpg"
+                        data-specifications="Material: Pine Wood; Seats: 6; Color: Dark Brown"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 550,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Smart TV e 1.jpg" alt="Smart TV">
+                    <h4>Smart TV</h4>
+                    <a href="product.html" class="description" data-name="Smart TV" data-price="TZS 1,800,000"
+                        data-description="50-inch 4K Smart TV." data-image="../IMAGES/products images/Smart TV e 1.jpg"
+                        data-specifications="Resolution: 4K; Connectivity: HDMI, USB"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 1,800,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Men's Jeans m 1.jpg" alt="Men's Jeans">
+                    <h4>Men's Jeans</h4>
+                    <a href="product.html" class="description" data-name="Men's Jeans" data-price="TZS 45,000"
+                        data-description="Classic denim jeans."
+                        data-image="../IMAGES/products images/Men's Jeans m 1.jpg"
+                        data-specifications="Material: Denim; Sizes: 30-38" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 45,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Evening Dress w 1.jpg" alt="Evening Dress">
+                    <h4>Evening Dress</h4>
+                    <a href="product.html" class="description" data-name="Evening Dress" data-price="TZS 140,000"
+                        data-description="Elegant evening dress."
+                        data-image="../IMAGES/products images/Evening Dress w 1.jpg"
+                        data-specifications="Material: Velvet; Sizes: S, M, L" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 140,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Training Shoes s 2.jpg" alt="Training Shoes">
+                    <h4>Training Shoes</h4>
+                    <a href="product.html" class="description" data-name="Training Shoes" data-price="TZS 75,000"
+                        data-description="Lightweight training shoes"
+                        data-image="../IMAGES/products images/Training Shoes s 2.jpg"
+                        data-specifications="Material: Mesh; Size: 39-44; Color: Grey"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 75,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Bedside Table f 2.jpg" alt="Bedside Table	">
+                    <h4>Bedside Table </h4>
+                    <a href="product.html" class="description" data-name="Bedside Table	" data-price="TZS 70,000"
+                        data-description="Modern bedside table."
+                        data-image="../IMAGES/products images/Bedside Table f 2.jpg"
+                        data-specifications="Material: MDF; Color: White" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 70,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Digital Watch e 2.jpg" alt="Digital Watch">
+                    <h4>Digital Watch</h4>
+                    <a href="product.html" class="description" data-name="Digital Watch" data-price="TZS 100,000"
+                        data-description="Multi-function digital watch."
+                        data-image="../IMAGES/products images/Digital Watch e 2.jpg"
+                        data-specifications="Features: Stopwatch; Alarm; Waterproof"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 100,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Men's T-Shirts m 2.jpg" alt="Men's T-Shirts">
+                    <h4>Men's T-Shirts</h4>
+                    <a href="product.html" class="description" data-name="Men's T-Shirts" data-price="TZS 30,000"
+                        data-description="Stylish party dress."
+                        data-image="../IMAGES/products images/Men's T-Shirts m 2.jpg"
+                        data-specifications="Material: 100% Cotton; Sizes: M, L, XL	"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 30,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Party Dress w 2.jpg" alt="Party Dress">
+                    <h4>Party Dress </h4>
+                    <a href="product.html" class="description" data-name="Party Dress" data-price="TZS 110,000"
+                        data-description="Comfortable and stylish sneakers."
+                        data-image="../IMAGES/products images/Party Dress w 2.jpg"
+                        data-specifications="Material: Sequin; Sizes: S, M, L" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 110,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Leather Boots s 3.jpg" alt="Leather Boots">
+                    <h4>Leather Boots</h4>
+                    <a href="product.html" class="description" data-name="Leather Boots" data-price="TZS 120,000"
+                        data-description="Durable leather boots."
+                        data-image="../IMAGES/products images/Leather Boots s 3.jpg"
+                        data-specifications="Material: Leather; Size: 40-45; Color: Black"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 120,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Armchair f 3.jpg" alt="Armchair">
+                    <h4>Armchair</h4>
+                    <a href="product.html" class="description" data-name="Armchair" data-price="TZS 220,000"
+                        data-description="Comfortable armchair." data-image="../IMAGES/products images/Armchair f 3.jpg"
+                        data-specifications="Material: Fabric; Color: Blue" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 220,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/E-Reader e 3.jpg" alt="E-Reader">
+                    <h4>E-Reader<h4>
+                            <a href="product.html" class="description" data-name="E-Reader" data-price="TZS 250,000"
+                                data-description="Portable e-reader with backlight."
+                                data-image="../IMAGES/products images/E-Reader e 3.jpg"
+                                data-specifications="Screen: 6 inches; Storage: 8GB; Color: Black"
+                                onclick="setProductDetails(this)">View more</a>
+                            <p class="price">TZS 250,000</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Polo Shirts m 3.jpg" alt="Polo Shirts">
+                    <h4>Polo Shirts</h4>
+                    <a href="product.html" class="description" data-name="Polo Shirts" data-price="TZS 35,000"
+                        data-description="Classic polo shirts."
+                        data-image="../IMAGES/products images/Polo Shirts m 3.jpg"
+                        data-specifications="Material: Cotton; Sizes: M, L, XL" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 35,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Maxi Dress w 3.jpg" alt="Maxi Dress">
+                    <h4>Maxi Dress</h4>
+                    <a href="product.html" class="description" data-name="Maxi Dress" data-price="TZS 95,000"
+                        data-description="Flowing maxi dress." data-image="../IMAGES/products images/Maxi Dress w 3.jpg"
+                        data-specifications="Material: Rayon; Sizes: S, M, L" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 95,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Running Shoes s 4.jpg" alt="Running Shoes">
+                    <h4>Running Shoes</h4>
+                    <a href="product.html" class="description" data-name="Running Shoes" data-price="TZS 105,000"
+                        data-description="High-performance running shoes	."
+                        data-image="../IMAGES/products images/Running Shoes s 4.jpg"
+                        data-specifications="Material: Synthetic; Size: 38-44; Color: Red"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 105,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Coffee Table f 4.jpg" alt="Coffee Table ">
+                    <h4>Coffee Table</h4>
+                    <a href="product.html" class="description" data-name="Coffee Table" data-price="TZS 180,000"
+                        data-description="Glass-top coffee table."
+                        data-image="../IMAGES/products images/Coffee Table f 4.jpg"
+                        data-specifications="Material: Glass & Metal; Color: Black"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 180,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Laptop HP Silver e 4.jpg" alt="Laptop">
+                    <h4>Laptop</h4>
+                    <a href="product.html" class="description" data-name="Laptop" data-price="TZS 2,200,000"
+                        data-description="Powerful laptop with SSD."
+                        data-image="../IMAGES/products images/Laptop HP Silver e 4.jpg"
+                        data-specifications="RAM: 16GB; Storage: 512GB SSD; Color: Silver"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 2,200,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Men's Jackets m 4.jpg" alt="Men's Jackets">
+                    <h4>Men's Jackets</h4>
+                    <a href="product.html" class="description" data-name="Men's Jacketss" data-price="TZS 150,000"
+                        data-description="Stylish leather jackets."
+                        data-image="../IMAGES/products images/Men's Jackets m 4.jpg"
+                        data-specifications="Material: Leather; Sizes: M, L, X" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 150,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Blouse w 4.jpg" alt="Blouse">
+                    <h4>Blouse</h4>
+                    <a href="product.html" class="description" data-name="Blouse" data-price="TZS 55,000"
+                        data-description="Elegant blouse." data-image="../IMAGES/products images/Blouse w 4.jpg"
+                        data-specifications="Material: Silk; Sizes: S, M, L" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 55,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Running Shoes s 4.jpg" alt="Running Shoes">
+                    <h4>Running Shoes</h4>
+                    <a href="product.html" class="description" data-name="Running Shoes" data-price="TZS 98,000"
+                        data-description="Cushioned running shoes."
+                        data-image="../IMAGES/products images/Running Shoes s 4.jpg"
+                        data-specifications="Material: Rubber; Size: 40-44; Color: White"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 98,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Reclining Chair f 5.jpg" alt="Reclining Chair">
+                    <h4>Reclining Chair</h4>
+                    <a href="product.html" class="description" data-name="Reclining Chair" data-price="TZS 350,000"
+                        data-description="Adjustable reclining chair."
+                        data-image="../IMAGES/products images/Reclining Chair f 5.jpg"
+                        data-specifications="Material: Leather; Color: Brown" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 350,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Tablet e 5.jpg" alt="Tablet">
+                    <h4>Tablet</h4>
+                    <a href="product.html" class="description" data-name="Tablet" data-price="TZS 750,000"
+                        data-description="High-resolution tablet." data-image="../IMAGES/products images/Tablet e 5.jpg"
+                        data-specifications="Screen: 10 inches; Storage: 128GB; Color: Black"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 750,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Men's Suits m 5.jpg" alt="Men's Suits">
+                    <h4>Men's Suits</h4>
+                    <a href="product.html" class="description" data-name="Men's Suits" data-price="TZS 250,000"
+                        data-description="Formal men's suits."
+                        data-image="../IMAGES/products images/Men's Suits m 5.jpg"
+                        data-specifications="Material: Wool Blend; Sizes: 38-44" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 250,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Women's Handbag w 5.jpg" alt="Women's Handbag">
+                    <h4>Women's Handbag</h4>
+                    <a href="product.html" class="description" data-name="Women's Handbag" data-price="TZS 80,000"
+                        data-description="Stylish women's handbag."
+                        data-image="../IMAGES/products images/Women's Handbag w 5.jpg"
+                        data-specifications="Material: Leather; Color: Red" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 80,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Athletic Shoes s 6.jpg" alt="Athletic Shoes">
+                    <h4>Athletic Shoes</h4>
+                    <a href="product.html" class="description" data-name="Athletic Shoes" data-price="TZS 88,000"
+                        data-description="Durable athletic shoes."
+                        data-image="../IMAGES/products images/Athletic Shoes s 6.jpg"
+                        data-specifications="Material: Synthetic; Size: 38-43; Color: Blue"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 88,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Sofa Bed f 6.jpg" alt="Sofa Bed">
+                    <h4>Sofa Bed</h4>
+                    <a href="product.html" class="description" data-name="Sofa Bed" data-price="TZS 400,000"
+                        data-description="Comfortable sofa bed." data-image="../IMAGES/products images/Sofa Bed f 6.jpg"
+                        data-specifications="Material: Fabric; Color: Beige" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 400,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Digital Camera e 6.jpg" alt="Digital Camera">
+                    <h4>Digital Camera</h4>
+                    <a href="product.html" class="description" data-name="Digital Camera" data-price="TZS 1,300,000"
+                        data-description="High-resolution digital camera."
+                        data-image="../IMAGES/products images/Digital Camera e 6.jpg"
+                        data-specifications="Resolution: 20MP; Color: Black" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 1,300,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Men's Blazers m 6.jpg" alt="Men's Blazers">
+                    <h4>Men's Blazers</h4>
+                    <a href="product.html" class="description" data-name="Men's Blazers" data-price="TZS 130,000"
+                        data-description="Elegant men's blazers."
+                        data-image="../IMAGES/products images/Men's Blazers m 6.jpg"
+                        data-specifications="Material: Linen; Sizes: M, L, XL" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 130,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Women's Heels w 6.jpg" alt="Women's Heels">
+                    <h4>Women's Heels</h4>
+                    <a href="product.html" class="description" data-name="Women's Heels" data-price="TZS 95,000"
+                        data-description="Stylish high heels."
+                        data-image="../IMAGES/products images/Women's Heels w 6.jpg"
+                        data-specifications="Material: Suede; Heel Height: 4 inches"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 95,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Slip-On Shoes s 7.jpg" alt="Slip-On Shoes">
+                    <h4>Slip-On Shoes</h4>
+                    <a href="product.html" class="description" data-name="Slip-On Shoes" data-price="TZS 60,000"
+                        data-description="Comfortable slip-on shoes."
+                        data-image="../IMAGES/products images/Slip-On Shoes s 7.jpg"
+                        data-specifications="	Material: Canvas; Size: 39-44; Color: Grey"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 60,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/products images/Bookshelf f 7.jpg" alt="Bookshelf">
+                    <h4>Bookshelf</h4>
+                    <a href="product.html" class="description" data-name="Bookshelf" data-price="TZS 300,000"
+                        data-description="Spacious bookshelf." data-image="../IMAGES/products images/Bookshelf f 7.jpg"
+                        data-specifications="	Material: Wood; Color: Dark Brown" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 300,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SwiftCart. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top" title="Go to top">↑</button>
+    <script src="../JavaScript files/main.js"></script>
+</body>
+
+</html>
