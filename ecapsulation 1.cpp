@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
-
+//advantages of incapsulation
+/*
+i. data security
+ii. easy maintenace 
+iii. controlled data access
+*/
 class base{
 	private:
 		string password;
