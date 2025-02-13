@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SwiftCart</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="centered-header">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="terms.html">Terms & Conditions</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, comments, or concerns, please feel free to reach out to us using the form
+                below or through our contact information provided.</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Our Contact Information</h3>
+                <p>Email: support@swiftcart.com</p>
+                <p>Phone: +255 123 456 7890</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SwiftCart. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the page from refreshing
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill out all fields before sending the message.');
+                return;
+            }
+
+            // Show success alert
+            alert('Your message has been sent successfully!');
+
+            // Clear form inputs
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+        });
+    </script>
+</body>
+
+</html>
