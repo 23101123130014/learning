@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="centered-header">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="#">Categories</a>
+                <div class="dropdown-content">
+                    <a href="products.html">Products</a>
+                    <a href="furniture.html">Furniture</a>
+                    <a href="shoes.html">Shoes</a>
+                    <a href="electronics.html">Electronics</a>
+                    <a href="Men's Wear.html">Men's Wear</a>
+                    <a href="Women's Fashion.html">Women's Fashion</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact Us</a>
+            <a href="cart.html">🛒Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Furniture</h2>
+            <section class="product-list">
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Wooden Coffee Table f 1.jpg" alt="Wooden Coffee Table">
+                    <h4>Wooden Coffee Table</h4>
+                    <a href="product.html" class="description" data-name="Wooden Coffee Table" data-price="TZS 200,000"
+                        data-description="Elegant wooden coffee table."
+                        data-image="../IMAGES/furniture images/Wooden Coffee Table f 1.jpg"
+                        data-specifications="Material: Oak Wood; Color: Dark Brown"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 200,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Leather Recliner f 2.jpg" alt="Leather Recliner">
+                    <h4>Leather Recliner</h4>
+                    <a href="product.html" class="description" data-name="Leather Recliner" data-price="TZS 400,000"
+                        data-description="Comfortable leather recliner."
+                        data-image="../IMAGES/furniture images/Leather Recliner f 2.jpg"
+                        data-specifications="Material: Genuine Leather; Color: Black"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 400,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Office Desk f 3.jpg" alt="Office Desk">
+                    <h4>Office Desk</h4>
+                    <a href="product.html" class="description" data-name="Office Desk" data-price="TZS 350,000"
+                        data-description="Spacious office desk."
+                        data-image="../IMAGES/furniture images/Office Desk f 3.jpg"
+                        data-specifications="Material: MDF; Color: White" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 350,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Dining Chair Set f 4.jpg" alt="Dining Chair Set">
+                    <h4>Dining Chair Set</h4>
+                    <a href="product.html" class="description" data-name="Dining Chair Set" data-price="TZS 300,000"
+                        data-description="Set of 4 dining chairs."
+                        data-image="../IMAGES/furniture images/Dining Chair Set f 4.jpg"
+                        data-specifications="Material: Fabric & Wood; Color: Gray"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 300,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Bookshelf f 5.jpg" alt="Bookshelf">
+                    <h4>Bookshelf</h4>
+                    <a href="product.html" class="description" data-name="Bookshelf" data-price="TZS 250,000"
+                        data-description="Tall wooden bookshelf."
+                        data-image="../IMAGES/furniture images/Bookshelf f 5.jpg"
+                        data-specifications="Material: Mahogany; Color: Dark Brown"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 250,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/TV Stand f 6.jpg" alt="TV Stand">
+                    <h4>TV Stand</h4>
+                    <a href="product.html" class="description" data-name="TV Stand" data-price="TZS 180,000"
+                        data-description="Modern TV stand." data-image="../IMAGES/furniture images/TV Stand f 6.jpg"
+                        data-specifications="Material: Glass & Metal; Color: Black"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 180,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Sofa Set f 7.jpg" alt="Sofa Set">
+                    <h4>Sofa Set</h4>
+                    <a href="product.html" class="description" data-name="Sofa Set" data-price="TZS 800,000"
+                        data-description="Comfortable 3-piece sofa set."
+                        data-image="../IMAGES/furniture images/Sofa Set f 7.jpg"
+                        data-specifications="Material: Fabric; Color: Beige" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 800,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Bed Frame f 8.jpg" alt="Bed Frame">
+                    <h4>Bed Frame</h4>
+                    <a href="product.html" class="description" data-name="Bed Frame" data-price="TZS 500,000"
+                        data-description="Sturdy wooden bed frame."
+                        data-image="../IMAGES/furniture images/Bed Frame f 8.jpg"
+                        data-specifications="Material: Pine Wood; Size: Queen" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 500,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Wardrobe f 9.jpg" alt="Wardrobe">
+                    <h4>Wardrobe</h4>
+                    <a href="product.html" class="description" data-name="Wardrobe" data-price="TZS 450,000"
+                        data-description="Spacious wardrobe." data-image="../IMAGES/furniture images/Wardrobe f 9.jpg"
+                        data-specifications="Material: Teak Wood; Color: Light Brown"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 450,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Nightstand f 10.jpg" alt="Nightstand">
+                    <h4>Nightstand</h4>
+                    <a href="product.html" class="description" data-name="Nightstand" data-price="TZS 150,000"
+                        data-description="Modern nightstand."
+                        data-image="../IMAGES/furniture images/Nightstand f 10.jpg"
+                        data-specifications="Material: MDF; Color: Black" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 150,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Office Chair f 11.jpg" alt="Office Chair">
+                    <h4>Office Chair</h4>
+                    <a href="product.html" class="description" data-name="Office Chair" data-price="TZS 200,000"
+                        data-description="Ergonomic office chair."
+                        data-image="../IMAGES/furniture images/Office Chair f 11.jpg"
+                        data-specifications="Material: Mesh; Adjustable Height" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 200,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Patio Furniture Set f 12.jpg" alt="Patio Furniture Set">
+                    <h4>Patio Furniture Set</h4>
+                    <a href="product.html" class="description" data-name="Patio Furniture Set" data-price="TZS 600,000"
+                        data-description="Outdoor patio furniture set."
+                        data-image="../IMAGES/furniture images/Patio Furniture Set f 12.jpg"
+                        data-specifications="Material: Wicker; Seats: 3; Color: Brown"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 600,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Coffee Table f 13.jpg" alt="Coffee Table">
+                    <h4>Coffee Table</h4>
+                    <a href="product.html" class="description" data-name="Coffee Table" data-price="TZS 180,000"
+                        data-description="Round glass coffee table."
+                        data-image="../IMAGES/furniture images/Coffee Table f 13.jpg"
+                        data-specifications="Material: Glass & Metal; Color: Silver"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 180,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Dresser f 14.jpg" alt="Dresser">
+                    <h4>Dresser</h4>
+                    <a href="product.html" class="description" data-name="Dresser" data-price="TZS 350,000"
+                        data-description="Elegant wooden dresser."
+                        data-image="../IMAGES/furniture images/Dresser f 14.jpg"
+                        data-specifications="Material: Oak Wood; Color: White" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 350,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Bookcase f 15.jpg" alt="Bookcase">
+                    <h4>Bookcase</h4>
+                    <a href="product.html" class="description" data-name="Bookcase" data-price="TZS 220,000"
+                        data-description="Modern bookcase." data-image="../IMAGES/furniture images/Bookcase f 15.jpg"
+                        data-specifications="Material: MDF; Color: Black" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 220,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Dining Table f 16.jpg" alt="Dining Table">
+                    <h4>Dining Table</h4>
+                    <a href="product.html" class="description" data-name="Dining Table" data-price="TZS 550,000"
+                        data-description="Spacious dining table."
+                        data-image="../IMAGES/furniture images/Dining Table f 16.jpg"
+                        data-specifications="Material: Mahogany; Seats: 6; Color: Dark Brown"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 550,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Side Table f 17.jpg" alt="Side Table">
+                    <h4>Side Table</h4>
+                    <a href="product.html" class="description" data-name="Side Table" data-price="TZS 130,000"
+                        data-description="Stylish side table."
+                        data-image="../IMAGES/furniture images/Side Table f 17.jpg"
+                        data-specifications="Material: Metal; Color: Bronze" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 130,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Lounge Chair f 18.jpg" alt="Lounge Chair">
+                    <h4>Lounge Chair</h4>
+                    <a href="product.html" class="description" data-name="Lounge Chair" data-price="TZS 300,000"
+                        data-description="Comfortable lounge chair."
+                        data-image="../IMAGES/furniture images/Lounge Chair f 18.jpg"
+                        data-specifications="Material: Leatherette; Color: Red" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 300,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/Shoe Rack f 19.jpg" alt="Shoe Rack">
+                    <h4>Shoe Rack</h4>
+                    <a href="product.html" class="description" data-name="Shoe Rack" data-price="TZS 100,000"
+                        data-description="Wooden shoe rack." data-image="../IMAGES/furniture images/Shoe Rack f 19.jpg"
+                        data-specifications="Material: Pine Wood; Color: Natural" onclick="setProductDetails(this)">View
+                        more</a>
+                    <p class="price">TZS 100,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-item">
+                    <img src="../IMAGES/furniture images/TV Cabinet f 20.jpg" alt="TV Cabinet">
+                    <h4>TV Cabinet</h4>
+                    <a href="product.html" class="description" data-name="TV Cabinet" data-price="TZS 400,000"
+                        data-description="Spacious TV cabinet."
+                        data-image="../IMAGES/furniture images/TV Cabinet f 20.jpg"
+                        data-specifications="Material: Oak Wood; Color: Dark Brown"
+                        onclick="setProductDetails(this)">View more</a>
+                    <p class="price">TZS 400,000</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SwiftCart. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top" title="Go to top">↑</button>
+    <script src="../JavaScript files/main.js"></script>
+</body>
+
+</html>
