@@ -1,0 +1,1 @@
+            userInfoLink.style.display = 'none';
