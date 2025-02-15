@@ -2,6 +2,7 @@
 function setProductDetails(element) {
     const productDetails = {
         name: element.getAttribute('data-name'),
+        } else {
             userInfoLink.style.display = 'none';
             signOutLink.style.display = 'none';
         }
