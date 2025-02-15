@@ -1,4 +1,5 @@
 // Function to set product details in local storage
+function setProductDetails(element) {
             userInfoLink.style.display = 'none';
             signOutLink.style.display = 'none';
         }
