@@ -2,6 +2,7 @@
 function setProductDetails(element) {
     const productDetails = {
         name: element.getAttribute('data-name'),
+    // Function to update the visibility of account options based on login status
             userInfoLink.style.display = 'block';
             signOutLink.style.display = 'block';
         } else {
