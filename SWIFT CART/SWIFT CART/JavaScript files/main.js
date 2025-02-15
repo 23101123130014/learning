@@ -1,5 +1,6 @@
 // Function to set product details in local storage
 function setProductDetails(element) {
+    const productDetails = {
             userInfoLink.style.display = 'none';
             signOutLink.style.display = 'none';
         }
