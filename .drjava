@@ -1,0 +1,24 @@
+#DrJava configuration file
+#Sat Feb 22 20:03:52 EAT 2025
+definitions.background.color = #333333
+definitions.line.number.background.color = #003333
+definitions.line.number.color = #ffffff
+definitions.match.color = #003333
+bookmark.color = #000000
+drjava.errors.button.color = #000000
+right.margin.color = #0033ff
+font.main = Monospaced-14
+font.line.numbers = Monospaced-14
+font.toolbar = -14-12
+key.delete.next = [shift DELETE]
+key.delete.previous = [shift BACK_SPACE]
+save.before.compile = true
+recent.files = [C:\\Users\\JACOB MWANSAMBE\\Main.java]
+window.height = 744
+window.width = 1382
+window.x = -8
+window.y = -8
+window.state = 6
+last.dir = C:\\Users\\JACOB MWANSAMBE
+last.interactions.dir = C:\\Users\\JACOB MWANSAMBE
+tabbedpanes.state = 683 384 700 400
