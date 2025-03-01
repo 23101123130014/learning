@@ -1,0 +1,9 @@
+public class Person
+{
+  private String name;
+  
+  //getter shedule here
+  public String getName()
+  {
+    return name;
+  }
