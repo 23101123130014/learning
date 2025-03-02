@@ -1,0 +1,15 @@
+class en
+{
+  int umri;
+ 
+  //getter will be written here
+  
+  public int getn()
+  {
+    return age;
+  }
+   //setter will be here
+  public void setn(int age)
+  {
+    umri = age;
+  }
