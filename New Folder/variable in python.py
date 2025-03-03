@@ -1,4 +1,5 @@
 
+print(y);
 
 z = str(3);
 c = float(3);
