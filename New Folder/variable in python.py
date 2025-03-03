@@ -1,5 +1,6 @@
 
 
+z = str(3);
 
 
 print(z);
