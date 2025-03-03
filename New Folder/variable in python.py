@@ -1,6 +1,7 @@
 
 
 z = str(3);
+c = float(3);
 
 
 print(z);
