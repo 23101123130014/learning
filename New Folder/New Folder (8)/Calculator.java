@@ -8,5 +8,6 @@
         try{
             System.out.println("Division: " + calculator.divide());
             System.out.println("Modulo: " + calculator.modulo());
+
         }
 
