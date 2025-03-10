@@ -10,5 +10,6 @@
             System.out.println("Modulo: " + calculator.modulo());
 
         }catch(ArithmeticException e){
+            System.out.println(e.getMessage());
         }
 
