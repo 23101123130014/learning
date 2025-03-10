@@ -1,5 +1,6 @@
 
             System.out.println("Division: " + calculator.divide());
+            System.out.println("Power: " + calculator.power());
             System.out.println(e.getMessage());
         }
 
