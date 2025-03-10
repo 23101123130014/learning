@@ -1,4 +1,5 @@
 
+            System.out.println("Division: " + calculator.divide());
             System.out.println(e.getMessage());
         }
 
