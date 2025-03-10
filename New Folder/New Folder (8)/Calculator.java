@@ -7,5 +7,6 @@
         calculator = new Calculator(num1, num2);
         try{
             System.out.println("Division: " + calculator.divide());
+            System.out.println("Modulo: " + calculator.modulo());
         }
 
