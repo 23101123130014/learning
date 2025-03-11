@@ -1,6 +1,10 @@
+public class Calculator {
 
             System.out.println("Division: " + calculator.divide());
             System.out.println("Power: " + calculator.power());
+            System.out.println("Modulo: " + calculator.modulo());
+
+        }catch(ArithmeticException e){
             System.out.println(e.getMessage());
         }
 
