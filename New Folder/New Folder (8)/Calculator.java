@@ -7,6 +7,7 @@ public class Calculator {
         this.operand1 = operand1;
         this.operand2 = operand2;
     }
+
             System.out.println("Division: " + calculator.divide());
             System.out.println("Power: " + calculator.power());
             System.out.println("Modulo: " + calculator.modulo());
