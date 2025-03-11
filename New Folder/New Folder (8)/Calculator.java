@@ -10,6 +10,7 @@ public class Calculator {
 
     public double add() {
         return operand1 + operand2;
+    }
 
             System.out.println("Division: " + calculator.divide());
             System.out.println("Power: " + calculator.power());
