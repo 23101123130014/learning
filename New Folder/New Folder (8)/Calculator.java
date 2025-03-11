@@ -12,6 +12,7 @@ public class Calculator {
         return operand1 + operand2;
     }
 
+    public double subtract() {
             System.out.println("Division: " + calculator.divide());
             System.out.println("Power: " + calculator.power());
             System.out.println("Modulo: " + calculator.modulo());
