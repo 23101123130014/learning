@@ -2,6 +2,7 @@ public class Calculator {
 
     private double operand1;
     private double operand2;
+
     public Calculator(double operand1, double operand2) {
             System.out.println("Division: " + calculator.divide());
             System.out.println("Power: " + calculator.power());
