@@ -8,6 +8,7 @@ public class Calculator {
         this.operand2 = operand2;
     }
 
+    public double add() {
             System.out.println("Division: " + calculator.divide());
             System.out.println("Power: " + calculator.power());
             System.out.println("Modulo: " + calculator.modulo());
