@@ -14,6 +14,7 @@ public class Calculator {
 
     public double subtract() {
 
+        if (operand2 == 0) {
 
             System.out.println("Division: " + calculator.divide());
             System.out.println("Power: " + calculator.power());
