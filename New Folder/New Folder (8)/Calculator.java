@@ -17,6 +17,7 @@ public class Calculator {
         if (operand2 == 0) {
 
     public double modulo(){
+        if (operand2 == 0) {
             System.out.println("Division: " + calculator.divide());
             System.out.println("Power: " + calculator.power());
             System.out.println("Modulo: " + calculator.modulo());
