@@ -20,6 +20,7 @@ public class Calculator {
     public double modulo(){
         if (operand2 == 0) {
             throw new ArithmeticException("Cannot modulo by zero");
+
         System.out.println("Subtraction: " + calculator.subtract());
         System.out.println("Multiplication: " + calculator.multiply());
         try{
