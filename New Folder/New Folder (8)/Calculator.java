@@ -23,6 +23,7 @@ public class Calculator {
         return operand1 % operand2;
     public static void main(String[] args) {
         double num1 = 10.0;
+        double num2 = 5.0;
 
         Calculator calculator = new Calculator(num1, num2);
 
