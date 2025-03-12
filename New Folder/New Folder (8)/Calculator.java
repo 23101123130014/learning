@@ -21,6 +21,7 @@ public class Calculator {
         if (operand2 == 0) {
             throw new ArithmeticException("Cannot modulo by zero");
 
+        System.out.println("Addition: " + calculator.add());
         System.out.println("Subtraction: " + calculator.subtract());
         System.out.println("Multiplication: " + calculator.multiply());
         try{
