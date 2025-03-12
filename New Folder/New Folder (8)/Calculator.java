@@ -13,6 +13,7 @@ public class Calculator {
     }
 
     public double subtract() {
+    }
 
     public double divide() {
         if (operand2 == 0) {
