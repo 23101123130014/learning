@@ -20,6 +20,7 @@ public class Calculator {
     public double modulo(){
         if (operand2 == 0) {
             throw new ArithmeticException("Cannot modulo by zero");
+        return operand1 % operand2;
         double num1 = 10.0;
 
 
