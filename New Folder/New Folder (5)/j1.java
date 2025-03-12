@@ -1,0 +1,19 @@
+public class j1
+{
+  static void my()
+  {
+  System.out.println("hello you are learning java object oriented programing language");
+  }
+  public void my1()
+  {
+    System.out.println("this is a public method here");
+  }
+  
+  
+  public static void main(String [] args)
+  {
+    my();
+   j1 ob = new j1();
+   ob.my1();
+  }}
+  

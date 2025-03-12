@@ -1,0 +1,8 @@
+import java.util.Scanner;
+class Animal
+{
+  public void animalsound()
+  {
+    System.out.println("animal my cry");
+  }
+  class

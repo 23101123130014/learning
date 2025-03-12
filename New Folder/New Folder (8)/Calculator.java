@@ -13,6 +13,11 @@ public class Calculator {
     }
 
     public double subtract() {
+        return operand1 - operand2;
+    }
+
+    public double multiply() {
+        return operand1 * operand2;
     }
 
     public double divide() {

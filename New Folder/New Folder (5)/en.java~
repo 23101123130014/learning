@@ -1,0 +1,21 @@
+class en
+{
+  private String name;
+  //getter is to be written here
+   public String get()
+   {
+     return name;
+   }
+   //setter fuction i will write here
+   public void sett(String n)
+   {
+    name = n; 
+   }
+   
+   //main method is to be written here
+   public stativ void main(String [] args)
+   {
+     en ob = new en();
+     
+     
+   }
