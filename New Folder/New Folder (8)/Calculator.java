@@ -17,6 +17,7 @@ public class Calculator {
     public double divide() {
         if (operand2 == 0) {
 
+        return Math.pow(operand1,operand2);
     public double modulo(){
         if (operand2 == 0) {
             throw new ArithmeticException("Cannot modulo by zero");
