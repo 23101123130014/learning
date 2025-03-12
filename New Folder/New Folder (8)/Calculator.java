@@ -16,6 +16,7 @@ public class Calculator {
 
     public double divide() {
         if (operand2 == 0) {
+            throw new ArithmeticException("Cannot divide by zero");
         }
         return operand1 / operand2;
     }
