@@ -23,6 +23,7 @@ public class Calculator {
         return operand1 % operand2;
         double num1 = 10.0;
 
+        Calculator calculator = new Calculator(num1, num2);
 
         System.out.println("Addition: " + calculator.add());
         System.out.println("Subtraction: " + calculator.subtract());
