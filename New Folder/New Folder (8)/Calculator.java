@@ -17,6 +17,7 @@ public class Calculator {
     public double divide() {
         if (operand2 == 0) {
 
+    public double power(){
         return Math.pow(operand1,operand2);
     }
     public double modulo(){
