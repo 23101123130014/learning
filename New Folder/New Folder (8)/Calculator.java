@@ -22,6 +22,7 @@ public class Calculator {
             throw new ArithmeticException("Cannot modulo by zero");
         double num1 = 10.0;
 
+
         System.out.println("Addition: " + calculator.add());
         System.out.println("Subtraction: " + calculator.subtract());
         System.out.println("Multiplication: " + calculator.multiply());
