@@ -1,3 +1,4 @@
+  public void sleep() {
     System.out.println("Zzz");
   }
 }
