@@ -1,3 +1,4 @@
+    myPig.animalSound();
     myPig.sleep();
   }
 }
