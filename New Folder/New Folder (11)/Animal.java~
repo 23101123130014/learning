@@ -1,2 +1,3 @@
+    myPig.sleep();
   }
 }
