@@ -1,3 +1,4 @@
+  public void sleep(); // interface method (does not have a body)
 }
 
 class Pig implements Animal {
