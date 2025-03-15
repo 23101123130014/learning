@@ -1,3 +1,4 @@
+    static int age; //this is static global variable
     
     
     void display()
