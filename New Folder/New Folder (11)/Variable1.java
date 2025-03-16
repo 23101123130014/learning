@@ -13,6 +13,7 @@
         Variable1 object1 = new Variable1();
         System.out.print("default value for interger ");
 
+/*
 class you{
 public static void main(String [] args)
 {
