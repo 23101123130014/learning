@@ -7,6 +7,7 @@
         //for static varible the default value to it it is o
         System.out.print("default value for static variable ");
         System.out.println(age);
+        //also for integer value the default value for it it is zero
 public static void main(String [] args)
 {
     System.out.println(" hello dear");
