@@ -1,4 +1,5 @@
     {
+    System.out.println("the Student " + name  + "has id" + rollNo;
                        
   }
 class StudentMain()
