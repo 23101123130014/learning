@@ -9,6 +9,7 @@
         System.out.println(age);
         
         //also for integer value the default value for it it is zero
+        Variable1 object1 = new Variable1();
         System.out.print("default value for interger ");
 public static void main(String [] args)
 {
