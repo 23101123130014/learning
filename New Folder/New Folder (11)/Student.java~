@@ -1,0 +1,4 @@
+public class Student inf{ no usages
+  {
+  String name;
+  int rollNo;
