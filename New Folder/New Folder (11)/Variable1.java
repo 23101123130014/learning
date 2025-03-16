@@ -3,6 +3,7 @@
     
     public static void main(String [] args)
     {
+        System.out.println("let wwe learn about variable in java object oriented programming");
         //for static varible the default value to it it is o
 public static void main(String [] args)
 {
