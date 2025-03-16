@@ -1,3 +1,4 @@
+  int rollNo;
   
     int age;
   void display()
