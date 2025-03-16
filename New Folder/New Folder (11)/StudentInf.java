@@ -1,3 +1,4 @@
+  void display()
     
     {
     System.out.println("the Student " + name  + "has id" + rollNo;
