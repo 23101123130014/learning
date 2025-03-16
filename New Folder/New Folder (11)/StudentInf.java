@@ -1,3 +1,4 @@
+public class StudentInf
 { 
   {
   String name;
