@@ -12,6 +12,7 @@
         
         Variable1 object1 = new Variable1();
         System.out.print("default value for interger ");
+        object1.display();
 
 /*
 class you{
