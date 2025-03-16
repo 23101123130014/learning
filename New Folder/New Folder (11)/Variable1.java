@@ -9,6 +9,7 @@
         System.out.println(age);
         
         //also for integer value the default value for it it is zero
+        System.out.print("default value for interger ");
 public static void main(String [] args)
 {
     System.out.println(" hello dear");
