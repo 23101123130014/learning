@@ -14,6 +14,7 @@
         System.out.print("default value for interger ");
         object1.display();
     }
+}
 
 /*
 class you{
