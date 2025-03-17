@@ -4,4 +4,3 @@ class Vehicle {
     System.out.println("Tuut, tuut!");
   }
 }
-
