@@ -2,6 +2,7 @@
   
   // a constructer is ti be wrritten here
   public Learn()
+    System.out.println("enter the name of the second student ");
     p2.name = ob.nextLine();
     
     
