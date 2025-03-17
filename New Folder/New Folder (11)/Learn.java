@@ -3,6 +3,7 @@
   // a constructer is ti be wrritten here
   public Learn()
     System.out.println("the id of the first student is " + p1.id);
+    System.out.println("the id of the second student is " + p2.id);
     
     System.out.println("the information for the first student are ");
     p1.display();
