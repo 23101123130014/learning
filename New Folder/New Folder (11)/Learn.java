@@ -2,6 +2,7 @@
   
   // a constructer is ti be wrritten here
   public Learn()
+    p2.name = ob.nextLine();
     
     
     System.out.println("the id of the first student is " + p1.id);
