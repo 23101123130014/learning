@@ -1,0 +1,9 @@
+public class Learn
+{
+  int x = 5;
+  public static void main()
+  {
+    Learn ob = new Learn();
+    System.out.println(ob.x);
+  }
+}
