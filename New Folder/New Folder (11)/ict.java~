@@ -1,0 +1,11 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ict
+{
+  public static void main(String [] args)
+  {
+    System.out.println("array in java object oriented programing language");
+  }
+}
