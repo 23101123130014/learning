@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class Jacob
+{
+  public static void main(String [] args)
+  {
+    ArrayList<String> cars = new ArrayList<String>;
+    
+    cars.add("bajaji");
+    cars.add("fuso");
+    cars.add("pikipiki");
+    System.out.println(cars);
+  }
+}
