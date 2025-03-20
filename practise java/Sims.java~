@@ -1,0 +1,146 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Sims
+{
+  public static void main(String[] args)
+    
+  {
+    int k;
+    int d;
+    String ona;
+    int choice = 0;
+    Scanner input = new Scanner(System.in);
+    ArrayList<String> Student = new ArrayList<String>();
+    
+   
+    do
+    {
+      System.out.println("1: Add students");
+      System.out.println("2: Read Students");
+      System.out.println("3: Update");
+      System.out.println("4: Delete");
+      System.out.println("5: Exit");
+      System.out.println("choose the choice above");
+      choice = input.nextInt();
+      input.nextLine();
+      
+      
+      
+       switch(choice)
+    {
+      case 1:
+        System.out.println("welcome to add the student");
+        System.out.print("Enter the number of student you want to add: ");
+        int u = input.nextInt();
+        input.nextLine();
+        for(int z = 0; z < u; z++)
+        {
+          System.out.print("Name: ");
+          String o = input.nextLine();
+          Student.add(o);
+        }
+        
+        break;
+      case 2:
+        System.out.println("welcome to read the student");
+        if(Student.isEmpty())
+        {
+          System.out.println("no any Student registered");
+        }
+        else
+        {
+          System.out.println("Student List");
+          k = Student.size();
+          for(int m = 0; m < k; m++)
+          {
+            System.out.print(m+1 + ":");
+            System.out.println(Student.get(m));
+          }
+        }
+        break;
+         case 3:
+           if(Student.isEmpty())
+             {
+           System.out.println("no student found you can not update");
+         }
+           else{
+             
+         k = Student.size();
+         for(int m = 0; m < k; m++)
+          {
+            System.out.print(m+1 + ":");
+            System.out.println(Student.get(m));
+          }
+         System.out.print("choose the number of student to Update among the above: ");
+         d = input.nextInt();
+         input.nextLine();
+         
+         if(d > 0 && d <= Student.size())
+         {
+           System.out.println("enter the name you need: ");
+           String y = input.nextLine();
+           ona = Student.set(d-1, y);
+           
+             System.out.println("yuo have sucefully updated: " + ona + " to " + Student.get(d-1));
+         }
+           else{
+             System.out.println("element not found");
+           }
+         
+           break;
+           }
+           
+           
+         case 4:
+           
+        if(Student.isEmpty())
+             {
+           System.out.println("no student found you can not delete");
+         }
+           else{
+             
+         k = Student.size();
+         for(int m = 0; m < k; m++)
+          {
+            System.out.print(m+1 + ":");
+            System.out.println(Student.get(m));
+          }
+         System.out.println("choose the number of student to delete among the above");
+         d = input.nextInt();
+         input.nextLine();
+         if(d > 0 && d<=Student.size())
+         {
+           String ui = Student.get(d-1);
+         Student.remove(d-1);
+         System.out.println("yo have sucesffully deleted the student Named: " + ui);
+         
+           }
+         else{
+           System.out.println("Element do not exist");
+           }
+           }
+         
+         break;
+      case 5:
+        System.out.println("exting the program");
+        break;
+      default:
+          System.out.println("incorrect choice");
+      
+       
+    }
+     
+  }
+    while(choice !=5);
+    
+  System.out.println("Goodbye");
+  input.close();
+     
+   
+    
+}
+}    
+    
+    
+    
