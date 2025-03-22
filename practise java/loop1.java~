@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class loop1
+{
+  public static void main(String [] args)
+  {
+    Scanner input = new Scanner(System.in)
+  int x;
+    System.out.print("Emter the number between 1 and ten: ");
+    x.input = nextInt();
+    input.nextLine();
+    while(
