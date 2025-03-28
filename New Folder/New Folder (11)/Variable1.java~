@@ -8,6 +8,7 @@ public class Variable1
     void display()
     {
      System.out.println("function here");   
+     System.out.println(c);
     }
     }
 }
