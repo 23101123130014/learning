@@ -11,6 +11,7 @@ public class Variable1
      System.out.println(" the sum is " + sum);
      System.out.println(c);
     }
+    
     }
 }
 
