@@ -1,8 +1,0 @@
-import java.util.Scnaner;
-public class addition
-{
-  public static void main(String [] args)
-  {
-    System.out.println("let we work out with calculation");
-  }
-}
