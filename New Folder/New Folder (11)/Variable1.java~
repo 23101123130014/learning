@@ -1,17 +1,44 @@
 public class Variable1
 {
-    int id = 12; //this is gloabal variable, instance variable, class level variable
+    int no; //in
+    // it will provide error because this is class level varibale "no = 22;"
+    int id = 12; //this is gloabal variable, instance variable, class level variable  , instance level variable
+    int nextid = id+1; //this is expression where inlude some symbols
     
-    static int age; //this is static global variable
+    static int age; //this is static global variable---------||||| for static variable will be allocated memory
     
     
     void display()
     {
-     System.out.println("function here");   
+        int c;
+        int y = 5; //local variable
+        y = 22;//it will not provide error because it is local varibale
+        int sum = 2 + id; //the class level varible can be accssed within the method of the same class without requring object creation
+     System.out.println("function here");  
+     System.out.println("the value of y is " + y);
+     System.out.println(" the value of id id is " + id);
      System.out.println(" the sum is " + sum);
      System.out.println(c);
     }
     
+    public static void main(String [] args)
+    {
+        System.out.println("let wwe learn about variable in java object oriented programming");
+        //for static varible the default value to it it is o
+        System.out.print("default value for static variable ");
+        System.out.println(age);
+        
+        //also for integer value the default value for it it is zero
+        
+        Variable1 object1 = new Variable1();
+        System.out.print("default value for interger ");
+        System.out.println(object1.no);
+        
+        // it will provide error because assing non static variable requre object creation " System.out.println(" the value of id is " + id);"
+        System.out.println(" the value of id is " +object1.id);//now this is the correct way of accsesing this variable
+        
+        System.out.println(object1.nextid);
+        object1.display();
     }
 }
 
